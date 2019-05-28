@@ -1,0 +1,50 @@
+----------GenDataFile-----------
+Record num:17
+----------IndexBuilder::Proc-----------
+no_compressed_num: 0
+compressed_num: 17
+key_num: 17
+key_zone_offset0
+key_zone_size: 9485
+hash_zone_offset: 9485
+hash_zone_size: 24
+hash_num: 3
+----------Traverse-----------
+bucket[0]:
+key_size: 454 val_size: 605251
+key_size: 831 val_size: 1048465
+bucket[1]:
+key_size: 329 val_size: 1011580
+key_size: 839 val_size: 917070
+key_size: 804 val_size: 676985
+key_size: 914 val_size: 812281
+key_size: 480 val_size: 254789
+key_size: 182 val_size: 737085
+key_size: 736 val_size: 614258
+key_size: 741 val_size: 784250
+key_size: 10 val_size: 792303
+key_size: 1 val_size: 137995
+bucket[2]:
+key_size: 601 val_size: 277559
+key_size: 78 val_size: 592662
+key_size: 997 val_size: 774337
+key_size: 930 val_size: 98715
+key_size: 14 val_size: 513656
+----------Verify-----------
+key_size: 1 val_size: 137995
+key_size: 10 val_size: 792303
+key_size: 741 val_size: 784250
+key_size: 736 val_size: 614258
+key_size: 182 val_size: 737085
+key_size: 14 val_size: 513656
+key_size: 831 val_size: 1048465
+key_size: 480 val_size: 254789
+key_size: 930 val_size: 98715
+key_size: 914 val_size: 812281
+key_size: 804 val_size: 676985
+key_size: 839 val_size: 917070
+key_size: 329 val_size: 1011580
+key_size: 997 val_size: 774337
+key_size: 454 val_size: 605251
+key_size: 78 val_size: 592662
+key_size: 601 val_size: 277559
