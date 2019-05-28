@@ -1,0 +1,6 @@
+[submodule "common/lz4"]
+	path = common/lz4
+	url = https://github.com/lz4/lz4
+[submodule "common/zstd"]
+	path = common/zstd
+	url = https://github.com/facebook/zstd
