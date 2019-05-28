@@ -12,6 +12,7 @@ int main()
 {
     const string data_file_name = "test_dir/anonymous";
     uint64_t data_file_mb = 10;
+    uint64_t hash_num = 3;
 
     /*
     * 这里不同的分布算法的参数不一样，没调好，还是先都只用uniform_int_distribution
@@ -21,7 +22,7 @@ int main()
     GenDataFile(data_file_name, data_file_mb);
 
     IndexBuilder* index_builder = new IndexBuilder();
-    index_builder->Init(data_file_name, 3);
+    index_builder->Init(data_file_name, hash_num);
     index_builder->Proc();
     delete index_builder;
 
